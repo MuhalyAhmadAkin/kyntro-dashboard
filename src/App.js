@@ -19,7 +19,7 @@ function App() {
     setError(null);
 
     try {
-      const response = await fetch("https://Akinkunmi1-kyntro-engine.hf.space/run", {
+      const response = await fetch("https://kyntro-engine.onrender.com/run", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ goal }),
@@ -166,7 +166,8 @@ Example: Automate Oracle to Cloud migration for NHS Trust"
       {/* Footer */}
       <div style={styles.footer}>
         <p>Built by Healthcare Data Scientist & AI Engineering Lead</p>
-        <p>Powered by CrewAI + Groq + React + FastAPI</p><p style={{color: "#00ff88", marginTop: "8px"}}>Built for real-world healthcare data workflows and AI-driven decision automation.</p><p style={{color: "#00ff88", marginTop: "8px"}}>Built for real-world healthcare data workflows and AI-driven decision automation.</p><p style={{color: "#00ff88", marginTop: "8px"}}>Built for real-world healthcare data workflows and AI-driven decision automation.</p>
+        <p>Powered by CrewAI + Groq + React + FastAPI</p>
+        <p style={{color: "#00ff88", marginTop: "8px"}}>Built for real-world healthcare data workflows and AI-driven decision automation.</p>
       </div>
     </div>
   );
