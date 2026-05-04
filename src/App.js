@@ -19,7 +19,7 @@ function App() {
     setError(null);
 
     try {
-      const response = await fetch("https://kyntro-engine.onrender.com/run", {
+      const response = await fetch("https://Akinkunmi1-kyntro-engine.hf.space/run", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ goal }),
